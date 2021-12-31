@@ -310,7 +310,7 @@ public enum HeroClass {
 	
 	public boolean isUnlocked(){
 		//always unlock on debug builds
-		return /*DeviceCompat.isDebug() ||*/ this != RAT_KING || Badges.isUnlocked(Badges.Badge.UNLOCK_RAT_KING);
+		return /*DeviceCompat.isDebug() ||*/ 1;
 		/*
 		switch (this){
 			case WARRIOR: default:
